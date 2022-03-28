@@ -19,6 +19,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients {
+  padding: 15px 0;
+  text-align: center;
+}
+.clients img {
+  max-width: 45%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+}
+.clients img:hover {
+  transform: scale(1.15);
+}
+@media (max-width: 768px) {
+  .clients img {
+    max-width: 40%;
+  }
+}
+
+/*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
 .back-to-top {
@@ -28,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0563bb;
+  background: #c4890c;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -40,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #0678e3;
+  background: #e77a13;
   color: #fff;
 }
 .back-to-top.active {
@@ -67,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #0563bb;
+  border: 6px solid #bb5d05;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -181,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
   color: #fff;
-  background: #0563bb;
+  background: #bb5d05;
 }
 .nav-menu a:hover span, .nav-menu .active span, .nav-menu .active:focus span, .nav-menu li:hover > a span {
   color: #fff;
@@ -224,7 +246,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .mobile-nav-active .mobile-nav-toggle {
   color: #fff;
-  background-color: #0563bb;
+  background-color: #bb5d05;
 }
 
 /*--------------------------------------------------------------
@@ -265,7 +287,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 #hero p span {
-  color: #0563bb;
+  color: #bb5d05;
   letter-spacing: 1px;
 }
 #hero .social-links {
@@ -280,7 +302,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 #hero .social-links a:hover {
-  color: #0563bb;
+  color: #bb5d05;
 }
 @media (max-width: 992px) {
   #hero {
@@ -334,7 +356,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: #bb5d05;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -365,7 +387,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #0563bb;
+  color: #bb5d05;
   line-height: 0;
 }
 .about .content p:last-child {
@@ -389,7 +411,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #0563bb;
+  background: #bb5d05;
   color: #fff;
   border-radius: 50px;
   display: inline-flex;
@@ -440,7 +462,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #0563bb;
+  background-color: #bb5d05;
 }
 
 /*--------------------------------------------------------------
@@ -456,7 +478,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #0563bb;
+  border-left: 2px solid #bb5d05;
   position: relative;
 }
 .resume .resume-item h4 {
@@ -465,7 +487,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #0563bb;
+  color: #bb5d05;
   margin-bottom: 10px;
 }
 .resume .resume-item h5 {
@@ -494,7 +516,12 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #0563bb;
+  border: 2px solid #bb5d05;
+}
+.btn{
+  background-color: #bb5d05;
+  border: #e27814;
+  color: white;
 }
 
 /*--------------------------------------------------------------
@@ -525,7 +552,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #0563bb;
+  color: #bb5d05;
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -614,7 +641,7 @@ section {
   transition: 0.3s;
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #148af9;
+  color: #bb5d05;
 }
 .portfolio .portfolio-wrap:hover::before {
   top: 0;
@@ -653,10 +680,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #0563bb;
+  border: 1px solid #bb5d05;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #0563bb;
+  background-color: #bb5d05;
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -748,7 +775,7 @@ section {
   color: #fff;
 }
 .services .iconbox-blue:hover .icon path {
-  fill: #47aeff;
+  fill: #b6661b;
 }
 .services .iconbox-orange i {
   color: #ffa76e;
@@ -826,7 +853,7 @@ section {
   margin: 0 0 15px 0;
 }
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #90c8fc;
+  color: #cc996a;
   font-size: 26px;
 }
 .testimonials .testimonial-item .quote-icon-left {
@@ -853,10 +880,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #0563bb;
+  border: 1px solid #bb5d05;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #0563bb;
+  background-color: #bb5d05;
 }
 @media (min-width: 992px) {
   .testimonials .testimonial-item p {
@@ -873,7 +900,7 @@ section {
 }
 .contact .info i {
   font-size: 20px;
-  color: #0563bb;
+  color: #bb5d05;
   float: left;
   width: 44px;
   height: 44px;
@@ -901,7 +928,7 @@ section {
   margin-top: 40px;
 }
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #0563bb;
+  background: #bb5d05;
   color: #fff;
 }
 .contact .php-email-form {
@@ -960,7 +987,7 @@ section {
   padding: 10px 12px;
 }
 .contact .google-email-form button[type=submit] {
-  background: #0563bb;
+  background: #bb5d05;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1017,7 +1044,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: #bb5d05;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1029,8 +1056,8 @@ section {
   transition: 0.3s;
 }
 #footer .social-links a:hover {
-  background: #0678e3;
-  color: #fff;
+  background: #bb5d05;
+  color: rgb(250, 237, 121);
   text-decoration: none;
 }
 #footer .copyright {
