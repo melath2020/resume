@@ -546,7 +546,7 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
+  background: rgb(250, 240, 218);
   border: 2px solid #bb5d05;
 }
 .btn{
