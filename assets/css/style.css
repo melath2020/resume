@@ -1097,3 +1097,29 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+.btn-works{
+  background-color: #bb5d05;
+  border: #f7f7f7;
+  border-width: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 8px 8px;
+  border-radius: 10px;
+  box-shadow: 5px 1px #868585;
+  font-weight: 500;
+  align-items: center;
+
+}
+.btn-works:hover{
+  background-color: #ffffff;
+  color:#bb5d05 ;
+  border-color: #bb5d05;
+  font-weight: 900;
+}
+.btn-align{
+  text-align: center;
+ 
+}
+
+

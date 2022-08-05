@@ -33,63 +33,286 @@
 </head>
 
 <body>
+    <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="index.html" class="nav-link scrollto active "><i class="bx bx-home"></i> <span>Home</span></a></li>
+       
+      </ul>
+    </nav><!-- .nav-menu -->
+
+  </header><!-- End Header -->
+  <!-- As a link -->
+<nav class="navbar bg-light">
+  <div class="container-fluid">
+    <a href="assets/RESUME.pdf" download>
+      <button type="button" class="btn-works">Download Resume</button>
+    </a>
+  </div>
+</nav>
+
+
 
   <main id="main">
 
-    <!-- ======= Portfolio Details Section ======= -->
-    <section id="portfolio-details" class="portfolio-details">
-      <div class="container">
+     <!-- ======= Portfolio Section ======= -->
+     <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
 
-        <div class="row gy-4">
+        <div class="section-title">
+          <h2> My Works</h2>
+          <p>Html,Css,Bootstrap,Javascript,React</p>
+        </div>
 
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper">
-              <div class="swiper-wrapper align-items-center">
+  
 
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-1.jpg" alt="">
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-react">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/todo.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Basic Todo</h4>
+                <p>React Todo sample</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/todo.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="ID card"><i class="bx bx-plus"></i></a>
+                  <a href="https://gitlab.com/sample-projects11/todo-react.git" data-glightbox="type: external"
+                    title="Basic_todo-gitlab"><i class="bx bx-link"></i></a>
                 </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-2.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-3.jpg" alt="">
-                </div>
-
               </div>
-              <div class="swiper-pagination"></div>
             </div>
           </div>
 
-          <div class="col-lg-4">
-            <div class="portfolio-info">
-              <h3>Project information</h3>
-              <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-              </ul>
-            </div>
-            <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia.
-                Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia
-                accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt
-                eius.
-              </p>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-react">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/netflix_clone.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Netflix Clone</h4>
+                <p>React using tmdb api</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/NetflixCapture.PNG" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Netflix React Clone"><i class="bx bx-plus"></i></a>
+                  <a href="https://gitlab.com/sample-projects11/netflixclone_react.git" title="Netflix_Clone -Gitlab"><i
+                      class="bx bx-link"></i></a>
+
+                </div>
+              </div>
             </div>
           </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-react">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/olx_clone.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Olx Clone</h4>
+                <p>React-Firebase Backend</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/olxCapture.PNG" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="aswinsudhakaran.in"><i class="bx bx-plus"></i></a>
+                  <a href="https://gitlab.com/sample-projects11/olx_clone-react.git" data-glightbox="type: external"
+                    title="Olx_Clone-Gitlab"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-node">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/eCOMMERSE.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Shopping Cart</h4>
+                <p>Node-Express.js with frontend Handlebars</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/EcommerseCap.PNG" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="ID card"><i class="bx bx-plus"></i></a>
+                  <a href="https://gitlab.com/sample-projects11/shoppingcart_node.git" data-glightbox="type: external"
+                    title="shoppingcart_node-Gitlab"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-react">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/reactfront.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>MERN-ECommerce-Frontend</h4>
+                <p>React</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/ecommerse.PNG" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="React frontend"><i class="bx bx-plus"></i></a>
+                  <a href="https://gitlab.com/sample-projects11/mern_frontend.git" data-glightbox="type: external"
+                    title="
+                  Mern_frontend-Gitlab"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-node">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/backend.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>MERN-ECommerce-Backend</h4>
+                <p>Express.js(Node)</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/postmn.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Rest api"><i class="bx bx-plus"></i></a>
+                  <a href="https://gitlab.com/sample-projects11/mern_backend.git" data-glightbox="type: external" title="
+                  Mern_backend-Gitlab"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/postermock.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Aami Social Media Poster</h4>
+                <p>Poster Design</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/postermock.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Poster"><i class="bx bx-plus"></i></a>
+                  <!-- <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/supermrkt.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Aami Super market</h4>
+                <p>Logo Poster</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/supermrkt.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="aami"><i class="bx bx-plus"></i></a>
+                  <!-- <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-react">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/reactadmin.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>MERN-ECommerce-Admin</h4>
+                <p>React</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/admin.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Rest api"><i class="bx bx-plus"></i></a>
+                  <a href="https://gitlab.com/sample-projects11/mern_admin.git" data-glightbox="type: external" title="
+                  Mern_admin-Gitlab"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/LAST.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Id Card</h4>
+                <p>Vaas Its</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/LAST.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="ID card"><i class="bx bx-plus"></i></a>
+                  <!-- <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/haxwale.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Haxwale</h4>
+                <p>Id card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/haxwale.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="ID card"><i class="bx bx-plus"></i></a>
+                  <!-- <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/schoolposter.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Muchukunn up School</h4>
+                <p>Pixel comp</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/muchukunn.jpeg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Admission poster"><i class="bx bx-plus"></i></a>
+                  <!-- <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
 
         </div>
 
       </div>
-    </section><!-- End Portfolio Details Section -->
+    </section><!-- End Portfolio Section -->
 
   </main><!-- End #main -->
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Aswin Sudhakaran</h3>
+      <p>Software developer and designer with innovative ideas and technical skills in Multimedia Softwares and
+        Programming languages.</p>
+      <div class="social-links">
+
+        <a href="https://www.facebook.com/aswin.sudhakaran.g/" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://join.skype.com/invite/yfYcIcuiBBXC" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="https://www.linkedin.com/in/aswin-s-896058207/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=+91-8304802069&text=hello" class="twitter"><i
+            class="bx bxl-whatsapp"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>Aswin Sudhakaran</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+
+        Designed and Maintained By <a href="https://pixelcomp.in/">Aswinsudhakaran</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
