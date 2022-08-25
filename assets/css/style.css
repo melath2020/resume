@@ -1117,12 +1117,14 @@ section {
   box-shadow: 5px 1px #868585;
   font-weight: 500;
   align-items: center;
+  transition: all 0.4s ease;
 
 }
 .btn-works:hover{
-  background-color: #ffffff;
+  background-color: #f0ede4;
   color:#bb5d05 ;
   border-color: #bb5d05;
+  font-size: 15px;
   font-weight: 900;
 }
 .btn-align{
